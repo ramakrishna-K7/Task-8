@@ -55,14 +55,20 @@ STEP 4: create a job
 	Goals = clean package
 •	Save the project and build
 ________________________________________
-STEP 4: HelloWorld.java
+STEP 4: git project structure 
+ • src/main/java/HelloWorld.java
+ • pom.xml
+
+# HelloWorld.java
+
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
 
-Pom.xml:
+# Pom.xml:
+
 <project>
 <modelVersion>4.0.0</modelVersion> <groupId>com.example</groupId> <artifactId>hello</artifactId>
 <version>1.0</version> <build> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>mavencompiler-plugin</artifactId> <version>3.8.1</version> <configuration> <source>1.8</source> <target>1.8</target>
